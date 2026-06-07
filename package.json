@@ -1,0 +1,14 @@
+{
+  "name": "third-party-risk-grc-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vendor risk intake, assessments, control evidence, issues, renewal reviews, and executive risk reporting.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

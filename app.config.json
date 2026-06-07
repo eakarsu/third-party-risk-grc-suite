@@ -1,0 +1,145 @@
+{
+  "slug": "third-party-risk-grc-suite",
+  "title": "Third Party Risk GRC Suite",
+  "buyer": "Security, procurement, risk, compliance teams",
+  "description": "Vendor risk intake, assessments, control evidence, issues, renewal reviews, and executive risk reporting.",
+  "modules": [
+    {
+      "id": "vendor-inventory",
+      "table": "vendorInventory",
+      "label": "Vendor Inventory",
+      "description": "Vendor Inventory workspace for Third Party Risk GRC Suite.",
+      "subfeatures": [
+        "Criticality",
+        "Data access",
+        "Business owner"
+      ],
+      "prefix": "VI",
+      "seedValues": [
+        "Criticality",
+        "Data access",
+        "Business owner"
+      ]
+    },
+    {
+      "id": "intake",
+      "table": "intake",
+      "label": "Risk Intake",
+      "description": "Risk Intake workspace for Third Party Risk GRC Suite.",
+      "subfeatures": [
+        "New vendor",
+        "Scope",
+        "Inherent risk"
+      ],
+      "prefix": "RI",
+      "seedValues": [
+        "New vendor",
+        "Scope",
+        "Inherent risk"
+      ]
+    },
+    {
+      "id": "assessments",
+      "table": "assessments",
+      "label": "Assessments",
+      "description": "Assessments workspace for Third Party Risk GRC Suite.",
+      "subfeatures": [
+        "Questionnaires",
+        "Control review",
+        "Residual risk"
+      ],
+      "prefix": "A",
+      "seedValues": [
+        "Questionnaires",
+        "Control review",
+        "Residual risk"
+      ]
+    },
+    {
+      "id": "evidence",
+      "table": "evidence",
+      "label": "Evidence",
+      "description": "Evidence workspace for Third Party Risk GRC Suite.",
+      "subfeatures": [
+        "SOC 2",
+        "ISO",
+        "Policies"
+      ],
+      "prefix": "E",
+      "seedValues": [
+        "SOC 2",
+        "ISO",
+        "Policies"
+      ]
+    },
+    {
+      "id": "issues",
+      "table": "issues",
+      "label": "Issues",
+      "description": "Issues workspace for Third Party Risk GRC Suite.",
+      "subfeatures": [
+        "Findings",
+        "Remediation",
+        "Exceptions"
+      ],
+      "prefix": "I",
+      "seedValues": [
+        "Findings",
+        "Remediation",
+        "Exceptions"
+      ]
+    },
+    {
+      "id": "renewals",
+      "table": "renewals",
+      "label": "Renewals",
+      "description": "Renewals workspace for Third Party Risk GRC Suite.",
+      "subfeatures": [
+        "Annual review",
+        "Contract renewal",
+        "Attestations"
+      ],
+      "prefix": "R",
+      "seedValues": [
+        "Annual review",
+        "Contract renewal",
+        "Attestations"
+      ]
+    },
+    {
+      "id": "compliance",
+      "table": "compliance",
+      "label": "GRC Mapping",
+      "description": "GRC Mapping workspace for Third Party Risk GRC Suite.",
+      "subfeatures": [
+        "Frameworks",
+        "Controls",
+        "Obligations"
+      ],
+      "prefix": "GM",
+      "seedValues": [
+        "Frameworks",
+        "Controls",
+        "Obligations"
+      ]
+    },
+    {
+      "id": "reporting",
+      "table": "reporting",
+      "label": "Risk Reporting",
+      "description": "Risk Reporting workspace for Third Party Risk GRC Suite.",
+      "subfeatures": [
+        "Heat map",
+        "Board pack",
+        "Aging"
+      ],
+      "prefix": "RR",
+      "seedValues": [
+        "Heat map",
+        "Board pack",
+        "Aging"
+      ]
+    }
+  ],
+  "port": 5614
+}
